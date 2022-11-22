@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clock{
+    height: 100vh;
+    background-image: url("watch_4.webp");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
+.clock .handle{
+    padding: 10px;
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    background: darkred;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    text-transform: full-size-kana;
+    font-size: 50px;
+}
